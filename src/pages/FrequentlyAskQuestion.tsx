@@ -10,12 +10,12 @@ const FrequentlyAskQuestion = () => {
 	};
 
 	return (
-		<div className="bg-[url('/src/assets/bg-four.jpg')] bg-cover flex items-center bg-right min-h-screen text-white">
-			<div className="container flex flex-col px-4 max-w-[75%] py-16 mx-auto text-white sm:px-6 sm:py-24">
+		<div className="bg-[url('/src/assets/bg-four.jpg')] flex items-center bg-cover bg-center h-screen text-white">
+			<div className="container absolute right-1/2 translate-x-1/2 flex flex-col px-4 max-w-[75%] py-16 text-white sm:px-6 sm:py-24">
 				<h2 className="mb-8 text-4xl text-center text-outline-black font-kardia">
 					FAQ
 				</h2>
-				<div className="space-y-2 max-w-[90vw] sm:max-w-[640px]">
+				<div className="relative space-y-2 max-w-[90vw] sm:max-w-[640px]">
 					{faqs.map(
 						(
 							{ question, answer }: { question: string; answer: string },
