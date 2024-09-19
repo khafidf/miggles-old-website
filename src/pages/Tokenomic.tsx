@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { CardTokenomic } from "../components/Card";
 import { tokenomic } from "../data/data";
+import moonbag from "../assets/miggles-moonbag.png";
 
 const Tokenomic = () => {
 	const [copied, setCopied] = useState(false);
@@ -57,7 +58,7 @@ const Tokenomic = () => {
 
 				<div className="relative mt-12 md:mt-16">
 					<img
-						src="/src/assets/miggles-moonbag.png"
+						src={moonbag}
 						className="w-48 mx-auto md:w-60 lg:w-72 -rotate-3"
 						alt="Miggles Moonbag"
 					/>

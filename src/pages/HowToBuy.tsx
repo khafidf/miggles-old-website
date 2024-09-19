@@ -1,4 +1,5 @@
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+import miggles from "../assets/miggles.jpg";
 
 const HowToBuy = () => {
 	return (
@@ -26,7 +27,7 @@ const HowToBuy = () => {
 				<div className="grid grid-cols-2 gap-8 mx-auto lg:w-4/5 xl:w-3/5 2xl:w-1/2 md:grid-cols-3">
 					<div className="col-span-2 p-4 bg-[#0a0f20] justify-center border-[#23284b] rounded-lg border-2 flex flex-col items-center">
 						<div className="flex flex-col items-center text-lg font-semibold text-center">
-							<img src="/src/assets/miggles.jpg" alt="Miggles" width={42} />
+							<img src={miggles} alt="Miggles" width={42} />
 							<h2 className="mt-4 font-kardia">Download Coinbase Wallet</h2>
 							<p className="px-2 mt-2 text-sm md:text-base">
 								Download and install Coinbase Wallet from the app store, or use
@@ -45,7 +46,7 @@ const HowToBuy = () => {
 
 					<div className="col-span-1 p-4 justify-center  bg-[#0a0f20] border-[#23284b] rounded-lg border-2 flex flex-col items-center">
 						<div className="flex flex-col items-center mx-auto text-lg font-semibold text-center">
-							<img src="/src/assets/miggles.jpg" alt="Miggles" width={42} />
+							<img src={miggles} alt="Miggles" width={42} />
 							<h2 className="mt-4 font-kardia">Secure Your ETH</h2>
 							<p className="px-2 mt-2 text-sm md:text-base">
 								Purchase ETH and transfer it to your wallet from a centralized
@@ -56,7 +57,7 @@ const HowToBuy = () => {
 
 					<div className="col-span-1 p-4 justify-center bg-[#0a0f20] border-[#23284b] rounded-lg border-2 flex flex-col items-center">
 						<div className="flex flex-col items-center text-lg font-semibold text-center">
-							<img src="/src/assets/miggles.jpg" alt="Miggles" width={42} />
+							<img src={miggles} alt="Miggles" width={42} />
 							<h2 className="mt-4 font-kardia">Buy some $MIGGLES</h2>
 							<p className="px-2 mt-2 text-sm md:text-base">
 								Go to Uniswap, switch to the Base chain, and swap your ETH for
@@ -75,7 +76,7 @@ const HowToBuy = () => {
 
 					<div className="col-span-2 p-4 justify-center bg-[#0a0f20] border-[#23284b] rounded-lg border-2 flex flex-col items-center">
 						<div className="flex flex-col items-center text-lg font-semibold text-center">
-							<img src="/src/assets/miggles.jpg" alt="Miggles" width={42} />
+							<img src={miggles} alt="Miggles" width={42} />
 							<h2 className="mt-4 font-kardia">Add to Your Wallet</h2>
 							<p className="px-2 mt-2 text-sm md:text-base">
 								Import the contract address into your wallet to view and track

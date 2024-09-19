@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-export const NavButton = ({ logo }: { logo: string }) => {
+export const NavButton = ({ logo, url }: { logo: string; url: string }) => {
 	const border = (logoName: string) => {
 		switch (logoName) {
 			case "Telegram":
@@ -21,13 +21,7 @@ export const NavButton = ({ logo }: { logo: string }) => {
 			)}`}
 		>
 			<a href="#">
-				<img
-					src={`/src/assets/${logo.toLowerCase()}-logo.png`}
-					width={40}
-					height={40}
-					className="p-2"
-					alt={logo}
-				/>
+				<img src={url} width={40} height={40} className="p-2" alt={logo} />
 			</a>
 		</button>
 	);

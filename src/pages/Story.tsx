@@ -1,11 +1,12 @@
 import { Button } from "../components/Button";
+import migboat from "../assets/miggboat.png";
 
 const Story = () => {
 	return (
 		<div className="bg-[url('/src/assets/bg-two.jpg')] overflow-hidden bg-no-repeat h-[860px] bg-right-bottom bg-cover md:bg-auto font-kardia">
 			<div className="relative">
 				<img
-					src="/src/assets/miggboat.png"
+					src={migboat}
 					className="absolute invisible -right-10 top-16 md:visible"
 					width={640}
 					alt="Miggles Fishing"

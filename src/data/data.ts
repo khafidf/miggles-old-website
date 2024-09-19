@@ -1,46 +1,62 @@
-export const nav = ["Telegram", "X", "Flooz"];
+import superexImg from "/src/assets/superex.png";
+import lbankImg from "/src/assets/lbank.png";
+import bitgetImg from "/src/assets/bitget.png";
+import astariaImg from "/src/assets/astaria.png";
+import coinexImg from "/src/assets/coinex.png";
+import ascendexImg from "/src/assets/ascendex.png";
+import beefyImg from "/src/assets/beefy.png";
+import floozImg from "/src/assets/flooz.png";
+import telegram from "/src/assets/telegram-logo.png";
+import x from "/src/assets/x-logo.png";
+import flooz from "/src/assets/flooz-logo.png";
+
+export const nav = [
+	{ logo: "Telegram", url: telegram },
+	{ logo: "X", url: x },
+	{ logo: "Flooz", url: flooz },
+];
 
 export const cex = [
 	{
 		name: "superex",
 		color: "black",
-		url: "/src/assets/superex.png",
+		url: superexImg,
 	},
 	{
 		name: "lbank",
 		color: "black",
-		url: "/src/assets/lbank.png",
+		url: lbankImg,
 	},
 	{
 		name: "bitget",
 		color: "green",
-		url: "/src/assets/bitget.png",
+		url: bitgetImg,
 	},
 	{
 		name: "astaria",
 		color: "green",
-		url: "/src/assets/astaria.png",
+		url: astariaImg,
 	},
 	{
 		name: "coinex",
 		color: "blue",
-		url: "/src/assets/coinex.png",
+		url: coinexImg,
 	},
 	{
 		name: "ascendex",
 		color: "blue",
-		url: "/src/assets/ascendex.png",
+		url: ascendexImg,
 	},
 ];
 
 export const partner = [
 	{
 		name: "beefy",
-		url: "/src/assets/beefy.png",
+		url: beefyImg,
 	},
 	{
 		name: "flooz",
-		url: "/src/assets/flooz.png",
+		url: floozImg,
 	},
 ];
 

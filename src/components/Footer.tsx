@@ -13,9 +13,11 @@ const Footer = () => {
 				</div>
 				<div>
 					<div className="flex gap-4">
-						{nav.map((item: string, id: number) => (
-							<NavButton logo={item} key={id} />
-						))}
+						{nav.map(
+							({ logo, url }: { logo: string; url: string }, id: number) => (
+								<NavButton logo={logo} url={url} key={id} />
+							)
+						)}
 						<Button text="Buy Now" />
 					</div>
 				</div>

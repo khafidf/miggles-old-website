@@ -1,6 +1,7 @@
 import { FaTelegramPlane } from "react-icons/fa";
 import { Button } from "../components/Button";
 import { FaXTwitter } from "react-icons/fa6";
+import migglesRari from "../assets/miggles-rari.png";
 
 const Community = () => {
 	return (
@@ -8,7 +9,7 @@ const Community = () => {
 			<div className="container flex flex-col items-center gap-8 mx-auto md:flex-row md:gap-12">
 				<div className="flex justify-center w-full md:w-1/2">
 					<img
-						src="/src/assets/miggles-rari.png"
+						src={migglesRari}
 						className="w-[320px] sm:w-[420px] max-w-full"
 						alt="Miggles Rari"
 					/>

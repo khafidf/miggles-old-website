@@ -2,6 +2,7 @@ import Marquee from "react-fast-marquee";
 import { Button, NavButton } from "../components/Button";
 import { PiStarFourFill } from "react-icons/pi";
 import { nav } from "../data/data";
+import miggles from "../assets/miggles.png";
 
 const Home = () => {
 	return (
@@ -20,19 +21,17 @@ const Home = () => {
 						<a href="#">$MIGGLES</a>
 					</h1>
 					<div className="flex gap-12">
-						{nav.map((item: string, id: number) => (
-							<NavButton logo={item} key={id} />
-						))}
+						{nav.map(
+							({ logo, url }: { logo: string; url: string }, id: number) => (
+								<NavButton logo={logo} url={url} key={id} />
+							)
+						)}
 					</div>
 				</div>
 				<div className="flex flex-col-reverse gap-10 mb-10 md:justify-evenly md:mb-0 md:flex-row">
 					{/* Left */}
 					<div className="mx-auto md:mx-0">
-						<img
-							src="/src/assets/miggles.png"
-							className="w-56 md:w-60 lg:w-96"
-							alt="Miggles"
-						/>
+						<img src={miggles} className="w-56 md:w-60 lg:w-96" alt="Miggles" />
 					</div>
 					{/* Right */}
 					<div className="flex flex-col text-center text-white md:justify-center">
