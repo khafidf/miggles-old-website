@@ -9,7 +9,7 @@ import Tokenomic from "./pages/Tokenomic";
 
 function App() {
 	return (
-		<div>
+		<div className="overflow-hidden">
 			<Home />
 			<Story />
 			<Partner />
